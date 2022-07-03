@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="logo/tanbirlogo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body class="s1">
+
+    <marquee>এখনি রেজিট্রেসন করুন</marquee> <br> <br> <br>
+
+    <h1 style="text-align: center ;">Sign Up</h1>
+    <hr>
+    <!--ব্যাবহারকারীর নাম শুরু-->
+    <label for="user"> Name:</label>
+    <input type="text" id="user" name="user" placeholder="User name"> <br> <br>
+    <!--ব্যাবহারকারীর নাম শেষ-->
+
+    <!--ব্যাবহারকারীর email শুরু-->
+    <label for="email"> E-mail: </label>
+    <input type="email" id="email" name="user mail" placeholder="e-mail" required> <br> <br>
+    <!--ব্যাবহারকারীর email শেষ-->
+
+
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="password" placeholder="password"> <br> <br>
+
+
+    <label for="phn">phone number:</label> <br> <br>
+    <select name="country code">
+        <option value="+88">+88</option>
+        <option value="+1">+1</option>
+        <option value="+99">+99</option>
+        <option value="+22">+22</option>
+        <option value="+321">+321</option>
+    </select>
+    <input type="number" id="phn" name="phone" placeholder="your number" required> <br> <br>
+
+    <label for="country">country</label>
+    <input list="con">
+    <datalist id="con">
+        <option value="bangladesh"></option>
+        <option value="canada"></option>
+        <option value="china"></option>
+        <option value="USA"></option>
+    </datalist>
+    <br> <br>
+
+    Gender:
+    <input type="radio" id="gen1" name="gender">
+    <label for="gen1"> Male </label>
+    <input type="radio" id="gen2" name="gender">
+    <label for="gen2">Female</label> <br> <br>
+
+    <label for="date">Date of Birth:</label>
+    <input type="date" id="date" name="date"> <br> <br>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time"> <br> <br>
+
+    <label for="colors"> Colors</label>
+    <input type="color" id="colors" name="colors"> <br> <br>
+
+    <label for="file">Chose Photo:</label>
+    <input type="file" id="file" name="file"> <br> <br>
+
+    <input type="checkbox" id="vec1" name="vec">
+    <label for="vec1"> i have a car</label>
+
+    <input type="checkbox" id="vec2" name="vec">
+    <label for="vec2"> i have a motorcycle</label> <br> <br>
+
+    <h3>Comment Here</h3>
+
+    <textarea name="comment" cols="30" rows="10"></textarea> <br> <br>
+
+    <input type="submit" value="send">
+    <input type="reset" value="reset">
+
+   
+
+
+</body>
+</html>
